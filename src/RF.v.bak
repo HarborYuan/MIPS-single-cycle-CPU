@@ -1,0 +1,29 @@
+module RF(A1, A2, A3, WD, RFWr, clk, RD1, RD2);
+  input A1[4:0];
+  input A2[4:0];
+  input A3[4:0];
+  input WD[31:0];
+  input RFWr;
+  input clk;
+  output reg RD1[31:0];
+  output reg RD2[31:0];
+  
+  reg[5:0] i;
+  
+  reg [31:0] data[0:31];
+  initial
+  begin
+    for (i=0;i<32;i=i+1)
+      data[i]=32'b0;
+  end 
+  
+  always @(A1 or A2)
+  begin
+    RD1<=data[A1];
+    RD2<=data[A2];
+  end
+  
+  always @(negedge clk)
+  if (RFWr)
+    data[A3]<=WD;
+endmodule 

@@ -1,0 +1,233 @@
+m255
+K3
+13
+cModel Technology
+dD:\study\Modelsim\examples
+T_opt
+Vbec75FR1mZa>>b4d@c0o^3
+04 6 4 work alu_tb fast 0
+=68-28f10e494e50-5a094994-5b-2b10
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OE;O;10.1a;51
+vaddpc
+IKL^DH<cL^VfQQJdnR^5]00
+VYaT`T=Ahbc@0dlaL<UdS60
+Z0 dD:\study\Modelsim\verilog
+w1510555875
+8D:\study\Modelsim\verilog\addpc.v
+FD:\study\Modelsim\verilog\addpc.v
+L0 1
+Z1 OE;L;10.1a;51
+r1
+31
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 Zlan2QM9<F6hV=lJd4WF<0
+!s90 -reportprogress|300|-work|work|-vopt|D:\study\Modelsim\verilog\addpc.v|
+!s108 1510558097.785000
+!s107 D:\study\Modelsim\verilog\addpc.v|
+!i10b 1
+!s85 0
+valu
+IbF;^78ozTA3M;]7z[gX3A2
+VWf^5JcOId^KL1`jeEbDln3
+Z3 dD:\study\Modelsim\verilog
+w1510553962
+8D:\study\Modelsim\verilog\alu.v
+FD:\study\Modelsim\verilog\alu.v
+L0 1
+R1
+r1
+31
+R2
+!s100 YC<Imeh[?N?89XU@lZ=1R0
+!s90 -reportprogress|300|-work|work|-vopt|D:\study\Modelsim\verilog\alu.v|
+!s108 1510558096.752000
+!s107 D:\study\Modelsim\verilog\alu.v|
+!i10b 1
+!s85 0
+valu_tb
+IYcaHDZd`S>GXMaF;Obd1B2
+VL;=kgzZ7GJ2Reg7Z1GkmR2
+R3
+w1510494028
+8D:/study/Modelsim/verilog/mips_tb.v
+FD:/study/Modelsim/verilog/mips_tb.v
+L0 2
+R1
+r1
+31
+R2
+!s100 amMaP3aK6Oh@EIYni=GkV1
+!s90 -reportprogress|300|-work|work|-vopt|D:/study/Modelsim/verilog/mips_tb.v|
+!i10b 1
+!s85 0
+!s108 1510558097.922000
+!s107 D:/study/Modelsim/verilog/mips_tb.v|
+vctrl
+IU[jhYo^`AR@=@m4hM1GNM3
+Vc1F@e1VZnlWg[?5YzECV03
+R3
+w1510556340
+8D:\study\Modelsim\verilog\ctrl.v
+FD:\study\Modelsim\verilog\ctrl.v
+L0 1
+R1
+r1
+31
+R2
+!s100 IWHLIl4]4VmJ^lPPohacY2
+!s90 -reportprogress|300|-work|work|-vopt|D:\study\Modelsim\verilog\ctrl.v|
+!s108 1510558097.381000
+!s107 D:\study\Modelsim\verilog\ctrl.v|
+!i10b 1
+!s85 0
+vDM
+I0a`YVC2n0BG>XWl1<gXmY1
+Vznnj?zJ=zzl=n:V^9:YF]3
+R3
+w1510551073
+8D:\study\Modelsim\verilog\dm.v
+FD:\study\Modelsim\verilog\dm.v
+L0 1
+R1
+r1
+31
+R2
+n@d@m
+!s100 nZ9U6DbK9f:2l7=KK[Ro31
+!s90 -reportprogress|300|-work|work|-vopt|D:\study\Modelsim\verilog\dm.v|
+!s108 1510558097.101000
+!s107 D:\study\Modelsim\verilog\dm.v|
+!i10b 1
+!s85 0
+vEXT
+Ib8okNeA2TBj_n<SF3l^793
+VkP?W4T^9d29_a?HHBFR]61
+R3
+w1510472085
+8D:/study/Modelsim/verilog/EXT.v
+FD:/study/Modelsim/verilog/EXT.v
+L0 1
+R1
+r1
+31
+R2
+n@e@x@t
+!s100 k1DZS__I_B3nho0i9?6kX1
+!s90 -reportprogress|300|-work|work|-vopt|D:/study/Modelsim/verilog/EXT.v|
+!s108 1510558096.952000
+!s107 D:/study/Modelsim/verilog/EXT.v|
+!i10b 1
+!s85 0
+vflopr
+I;>>fnCV7;[EI2J^6H1P6Y2
+VRz2EEQ_]n3kIh]Je;m6391
+R3
+w1510320341
+8D:/study/Modelsim/verilog/flopr.v
+FD:/study/Modelsim/verilog/flopr.v
+L0 1
+R1
+r1
+31
+R2
+!s100 8AJWBe<:;o=nh2XPTdJ0I0
+!s90 -reportprogress|300|-work|work|-vopt|D:/study/Modelsim/verilog/flopr.v|
+!s108 1510558096.502000
+!s107 D:/study/Modelsim/verilog/flopr.v|
+!i10b 1
+!s85 0
+vIM
+Imm7IhHFlYWNeOk<e0?IdD0
+V<D[AVSN41C<P51D6UYgz31
+R3
+w1510557569
+8D:\study\Modelsim\verilog\IM.v
+FD:\study\Modelsim\verilog\IM.v
+L0 1
+R1
+r1
+31
+R2
+n@i@m
+!s100 O@J3DoOb[m9^=bI=nz8@l3
+!s90 -reportprogress|300|-work|work|-vopt|D:\study\Modelsim\verilog\IM.v|
+!s108 1510558097.239000
+!s107 D:\study\Modelsim\verilog\IM.v|
+!i10b 1
+!s85 0
+vmips
+Izknbz[Gi@lM1>zVT?=R5?1
+Vm_TDK3<TN1;UX3mlSZbJM0
+R3
+w1510557528
+8D:\study\Modelsim\verilog\mips.v
+FD:\study\Modelsim\verilog\mips.v
+L0 1
+R1
+r1
+31
+R2
+!s100 C]2Ck3JjcQhZb9JS1OAGf1
+!s90 -reportprogress|300|-work|work|-vopt|D:\study\Modelsim\verilog\mips.v|
+!s108 1510558097.473000
+!s107 D:\study\Modelsim\verilog\mips.v|
+!i10b 1
+!s85 0
+vmux
+I6ZkMSS]BU[Ikld6UzO42z0
+V8CN5^g?b7k_4[>]kBQBeH0
+R3
+w1510536889
+8D:\study\Modelsim\verilog\mux.v
+FD:\study\Modelsim\verilog\mux.v
+L0 1
+R1
+r1
+31
+R2
+!s100 `bT2SZ<XQ6cS[VKYlcWU63
+!s90 -reportprogress|300|-work|work|-vopt|D:\study\Modelsim\verilog\mux.v|
+!s108 1510558096.060000
+!s107 D:\study\Modelsim\verilog\mux.v|
+!i10b 1
+!s85 0
+vPcUnit
+In_PR_c2KTYnlz9YZ?>]ag0
+VPzo96XzG1:z8YAcF@RI@03
+R3
+w1510558084
+8D:\study\Modelsim\verilog\PC.v
+FD:\study\Modelsim\verilog\PC.v
+L0 1
+R1
+r1
+31
+R2
+n@pc@unit
+!s100 U47`@D6eY]aO0b`F<JUEJ1
+!s90 -reportprogress|300|-work|work|-vopt|D:\study\Modelsim\verilog\PC.v|
+!s108 1510558097.585000
+!s107 D:\study\Modelsim\verilog\PC.v|
+!i10b 1
+!s85 0
+vRF
+I_ThQ`]78WCXS>boefZ6RA2
+VW97OAHM;XCbX<]`RmhA:V2
+R3
+w1510557918
+8D:\study\Modelsim\verilog\RF.v
+FD:\study\Modelsim\verilog\RF.v
+L0 1
+R1
+r1
+31
+R2
+n@r@f
+!s100 59V<:N?Qge5CVNa<0XVST0
+!s90 -reportprogress|300|-work|work|-vopt|D:\study\Modelsim\verilog\RF.v|
+!s108 1510558096.646000
+!s107 D:\study\Modelsim\verilog\RF.v|
+!i10b 1
+!s85 0

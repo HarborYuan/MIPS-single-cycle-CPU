@@ -1,0 +1,33 @@
+module ctrl(clk, rst, OP, Funct, Zero, Bsel, WDSel, RFWr, DMWr, NPCOp, EXTOp, ALUOp,PCWr, IRWr, GPRSel);
+    input clk;
+    input rst;
+    input [5:0]OP;
+    input [5:0]Funct;
+    input Zero;
+    output Bsel;
+    output [1:0]WDSel;
+    output RFWr;
+    output DMWr;
+    output [1:0]NPCOp;
+    output [1:0]EXTOp;
+    output [1:0]ALUOp;
+    output PCWr;
+    output IRWr;
+    output [1:0]GPRSel;
+
+    assign Bsel = (OP==6'hd) || (OP==6'h23) ||(OP==6'h2b);
+    assign WDSel[1] = (OP==6'h3);
+    assign WDSel[0] = (OP==6'h23);
+    assign RFWr = (OP==6'h0) || (OP==6'hd) ||(OP==6'h23) || (OP==6'h3);
+    assign DMWr = (OP==6'h2b);
+    assign NPCOp[0] = (OP==6'h4) && (Zero==1);
+    assign NPCOp[1] = (OP==6'h3);
+    assign EXTOp[0] = (OP==6'h23) || (OP==6'h2b) || (OP == 6'h4);
+    assign EXTOp[1] = 0;
+    assign ALUOp[0] = (OP == 6'h4) || ((OP == 6'h0)&&(Funct==6'h23));
+    assign ALUOp[1] = (OP==6'hd);
+    assign PCWr = (OP==6'h3) || ((OP==6'h4)&&(Zero==0));
+    assign IRWr = 0;
+    assign GPRSel[0] = (OP==6'hd) || (OP==6'h23);
+    assign GPRSel[1] = (OP==6'h3);
+endmodule
